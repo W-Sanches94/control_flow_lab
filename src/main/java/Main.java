@@ -1,6 +1,16 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Guess my lucky number!");
+        int secretNumber = 33;
+
+        Scanner reader = new Scanner(System.in);
+
+        int guessedNumber = reader.nextInt();
+
+        System.out.println(guessedNumber);
+
+
     }
 
 }
