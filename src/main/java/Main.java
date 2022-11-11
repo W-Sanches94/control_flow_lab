@@ -12,7 +12,6 @@ public class Main {
         Scanner reader = new Scanner(System.in);
         int guessedNumber = reader.nextInt();
 
-
         System.out.println(guessedNumber);
         System.out.println("Your Guessed Number is " + guessedNumber);
 
@@ -20,12 +19,11 @@ public class Main {
         //If guessedNumber is incorrect, print "Guess Higher" OR "Guess Lower"
 
         if (guessedNumber == secretNumber){
-            System.out.println("Congratulations! You Won!");
+            System.out.println("Congratulations! You Won!".toUpperCase());
         } else if (guessedNumber > secretNumber) {
             System.out.println("A Little too high, Guess Lower!");
         } else if (guessedNumber < secretNumber) {
             System.out.println("A little too low, Guess Higher!");
-
         }
     }
     }
