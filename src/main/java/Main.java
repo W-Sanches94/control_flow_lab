@@ -14,10 +14,10 @@ public class Main {
 
 
         System.out.println(guessedNumber);
-        System.out.println("Your Guessed Number is" + guessedNumber);
+        System.out.println("Your Guessed Number is " + guessedNumber);
 
         //If guessedNumber is correct, print "You Win!"
-        //If guessedNumber is incorrect, print "Guess Higher" or "Guess Lower"
+        //If guessedNumber is incorrect, print "Guess Higher" OR "Guess Lower"
 
         if (guessedNumber == secretNumber){
             System.out.println("Congratulations! You Won!");
