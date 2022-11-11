@@ -2,7 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         int secretNumber = 33;
+        String Greeting = "Please Guess a Number Between 1 and 99";
+        System.out.println(Greeting);
 
         Scanner reader = new Scanner(System.in);
 
@@ -11,6 +14,11 @@ public class Main {
         System.out.println(guessedNumber);
 
 
-    }
 
-}
+
+
+
+
+
+        }
+    }
